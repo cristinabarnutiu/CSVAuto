@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestNGSuite1" type="TestNG">
+    <module name="CSVAuto" />
+    <useClassPathOnly />
+    <option name="TEST_OBJECT" value="PATTERN" />
+    <option name="PARAMETERS" value="" />
+    <option name="OUTPUT_DIRECTORY" value="" />
+    <option name="PROPERTIES_FILE" value="" />
+    <properties />
+    <listeners />
+    <patterns>
+      <pattern testClass="com.cognizantsoftvision.NegativeTest" />
+      <pattern testClass="com.cognizantsoftvision.PositiveTest" />
+    </patterns>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
